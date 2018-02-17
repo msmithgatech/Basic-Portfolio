@@ -5,11 +5,35 @@ body
 
 .container
 {
-
+    background-color: lightgray;
+    width: 970px;
 }
 
-section
+.topnav 
 {
+    float: left;
+    background-color: white;
+    height: 30px;
+    width: 800px;
+    padding: 11px 30px;
+}
+
+.topnav  a.active
+{
+    background-color: lightseagreen;
+    color: white;
+}
+
+.topnav-right
+{
+    float: right;
+    color: lightslategray;
+} 
+
+.Pphoto
+{
+    width: 150px;
+    height: 150px;
 
 }
 
