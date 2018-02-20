@@ -1,48 +1,104 @@
-body
+
+.bdycolor
 {
-
+    background: url('light-veneer.png');
+    font-family: Georgia, Times, serif;
 }
-
-.container
-{
-    background-color: lightgray;
-    width: 970px;
-}
-
+ 
 .topnav 
 {
-    float: left;
-    background-color: white;
-    height: 30px;
-    width: 800px;
-    padding: 11px 30px;
+    background-color: whitesmoke;
+    margin: 25px;
+    height: 120px;
+    border: #cccccc;
+    border-bottom-style: outset;
 }
 
-.topnav  a.active
+
+.navmyname
 {
-    background-color: lightseagreen;
+    background-color: #4aaaa5;
+    height: 100%;
+    width: 20%;
+    margin: 0px 0px 0px 220px; 
+}
+
+.myname
+{
+    position: absolute;
+    top: 70px;
+    bottom: 10px;
+    left: 280px;
+    font-size: xx-large;
+    text-align: center;
+    text-anchor: middle;
     color: white;
 }
 
-.topnav-right
+.navlinks
 {
-    float: right;
-    color: lightslategray;
-} 
+    position: absolute;
+    top: 40px;
+    bottom: 0px;
+    left: 50%;
+    right: 60px;
+    font-size: 28px;
+    font-style: italic;
+}
+
+.mybio
+{
+    background-color: whitesmoke;
+    height: 650px;
+    width: 600px;
+    margin: 20px 20px 20px 240px;
+    padding: 12px;
+}
+
+.mybioa
+{
+    font-size: 30px;
+    font-style: italic;
+    color: #4aaaa5;
+    margin: 20px 10px 5px 15px;
+    }
 
 .Pphoto
 {
-    width: 150px;
-    height: 150px;
-
+    width: 300px;
+    height: 250px;
+    margin: 5px 10px 15px 10px;
 }
 
-section
+.clinks
 {
-
+    background-color: whitesmoke;
+    position: absolute;
+    top: 170px;
+    left: 960px;
+    height: 270px;
+    width: 270px;
+    color: #4aaaa5;
+    font-size: x-large;
+    font-style: italic;
+    
 }
 
 footer
 {
+    background-color: seashell;
     
+}
+
+
+
+
+
+
+
+
+
+
+
+
 }
